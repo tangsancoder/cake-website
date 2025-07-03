@@ -105,7 +105,7 @@ a {
 
 /* Hero Section */
 .hero-section {
-    background: #fff8e1; /* Your light yellow background */
+    background: #fff8e1;
     min-height: 100vh;
     display: flex; /* Use flex for vertical centering */
     align-items: center;
@@ -556,4 +556,17 @@ a {
     .menu-section .menu-list .menu-item {
         width: 90%; /* 1 item per row */
     }
+}
+::-webkit-scrollbar{
+    width: 16px;
+}
+::-webkit-scrollbar-track{
+    background-color: #5e1f12;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #160909;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #715d63;
 }
